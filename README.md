@@ -1,6 +1,10 @@
 # useful-skillet
 
+<<<<<<< HEAD
 A working collection of Palo Alto Networks and network security engineering reference material: architecture design guides, hardening baselines, assessment methodology, upgrade runbooks, troubleshooting notes, and gotchas pulled from real client engagements and lab work.
+=======
+A working collection of Palo Alto Networks reference material: baseline configs, assessment notes, troubleshooting gotchas, and field notes amassed from real engagements and labs.
+>>>>>>> 6c6d52b4c821750ba4fc14e8e72e5eb98f258af0
 
 Palo Alto focused — NGFW, Panorama, Prisma Access, and Prisma SD-WAN — with a few adjacent networking platforms (FortiGate, Meraki) kept alongside because the work is rarely single-vendor. The name nods to Iron Skillet.
 
