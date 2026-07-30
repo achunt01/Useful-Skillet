@@ -46,6 +46,8 @@ Senior-level design references — the decisions that are expensive to reverse, 
 | Doc | Covers |
 |---|---|
 | [configs/zone-protection-cli.md](configs/zone-protection-cli.md) | PAN-OS zone protection CLI snippets |
+| [configs/iron_skillet_panos_full.conf](configs/iron_skillet_panos_full.conf) | Iron Skillet full day-one config template (PAN-OS firewall) |
+| [configs/iron_skillet_panorama_full.conf](configs/iron_skillet_panorama_full.conf) | Iron Skillet full day-one config template (Panorama) |
 
 ### Reference
 | File | Covers |
@@ -65,7 +67,7 @@ useful-skillet/
 ├── upgrades/       # PAN-OS upgrade runbooks
 ├── assessments/    # engagement methodology and templates
 ├── gotchas/        # things that broke, and why
-├── configs/        # CLI/XML snippets
+├── configs/        # CLI/XML snippets and Iron Skillet templates
 ├── reference/      # source docs (docx, etc.)
 └── README.md
 ```
