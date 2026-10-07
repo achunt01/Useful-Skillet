@@ -39,6 +39,7 @@ Senior-level design references — the decisions that are expensive to reverse, 
 | Doc | Covers |
 |---|---|
 | [assessments/bpa-review-checklist.md](assessments/bpa-review-checklist.md) | Running a Palo Alto BPA / health check engagement end to end |
+| [assessments/prisma-access-assessment-checklist.md](assessments/prisma-access-assessment-checklist.md) | Prisma Access tenant assessment: connectivity, policy posture, licensing and capacity, logging |
 
 ### Gotchas
 | Doc | Covers |

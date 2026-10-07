@@ -34,3 +34,11 @@ Things that broke, misconfigs that weren't obvious, and fixes that aren't well d
 ## HA
 
 - HA1/HA2 sharing a data-plane interface works until there's a traffic spike, at which point failover detection gets unreliable. Dedicated interfaces for HA links are worth the extra port even in smaller deployments.
+
+## Prisma Access
+
+- Explicit Proxy PAC files are distributed by you, not by the portal. If the PAC never reaches the endpoint, traffic silently bypasses Prisma Access with no error to chase.
+- Migrating Panorama-managed Prisma Access to Strata Cloud Manager is one-way. Verify the unsupported-feature list against the tenant before starting; there is no rollback.
+- Site-based remote network onboarding (6.0+) and aggregate bandwidth licensing have different capacity math. Confirm which model the tenant uses before sizing anything.
+- A tenant on Local edition (5 locations max) with users outside those locations will hairpin or fail. Check the edition against the actual user geography.
+- Clean Pipe requires its own license and multi-tenant mode. It is not a feature flag on a standard enterprise tenant.
