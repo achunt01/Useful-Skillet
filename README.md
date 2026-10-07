@@ -36,6 +36,7 @@ Senior-level design references — the decisions that are expensive to reverse, 
 | [assessments/bpa-review-checklist.md](assessments/bpa-review-checklist.md) | Running a Palo Alto BPA / health check engagement end to end |
 | [assessments/prisma-access-assessment-checklist.md](assessments/prisma-access-assessment-checklist.md) | Prisma Access tenant assessment: connectivity, policy posture, licensing and capacity, logging |
 | [assessments/cloud-security-engineer-checklist.md](assessments/cloud-security-engineer-checklist.md) | AWS and Azure cloud security engineering review aligned to CIS Benchmarks, NIST CSF 2.0, and CSA CCM |
+| [assessments/aws-cis-foundations-checklist.md](assessments/aws-cis-foundations-checklist.md) | AWS account and foundational service review aligned to CIS AWS Foundations Benchmark control families |
 
 ### Gotchas
 | Doc | Covers |
