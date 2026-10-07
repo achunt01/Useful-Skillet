@@ -1,11 +1,6 @@
 # useful-skillet
 
-A working collection of Palo Alto Networks and network security engineering reference material: architecture design guides, hardening baselines, assessment methodology, upgrade runbooks, troubleshooting notes, and gotchas pulled from real client engagements and lab work.
-=======
-A working collection of Palo Alto Networks reference material: baseline configs, assessment notes, troubleshooting gotchas, and field notes amassed from real engagements and labs.
-
-
-Palo Alto focused — NGFW, Panorama, Prisma Access, and Prisma SD-WAN — with a few adjacent networking platforms (FortiGate, Meraki) kept alongside because the work is rarely single-vendor. The name nods to Iron Skillet.
+A working collection of Palo Alto Networks and network security engineering references: architecture guides, hardening baselines, assessment checklists, upgrade runbooks, troubleshooting notes, and field gotchas from engagements and lab work. It focuses on NGFW, Panorama, Prisma Access, and Prisma SD-WAN, with adjacent platforms such as FortiGate and Meraki included where useful. The name nods to Iron Skillet.
 
 Not an official Palo Alto Networks or Iron Skillet repo.
 
@@ -18,6 +13,7 @@ Senior-level design references — the decisions that are expensive to reverse, 
 |---|---|
 | [architecture/palo-alto-architecture.md](architecture/palo-alto-architecture.md) | Architecting Palo Alto NGFW — sizing, deployment mode, HA model, Panorama hierarchy, segmentation and policy model |
 | [architecture/ngfw-in-azure.md](architecture/ngfw-in-azure.md) | Palo Alto NGFW in Azure — VM-Series vs. Cloud NGFW, transit VNet, Gateway Load Balancer, routing/HA, vWAN, bootstrap |
+| [architecture/ngfw-in-aws.md](architecture/ngfw-in-aws.md) | Palo Alto NGFW in AWS — VM-Series vs. Cloud NGFW, Transit Gateway, Gateway Load Balancer, traffic steering, HA/scale, bootstrap |
 | [architecture/prisma-access.md](architecture/prisma-access.md) | Prisma Access (SASE) — mobile users, remote networks, service connections, compute locations, bandwidth, autoscaling IPs |
 | [architecture/prisma-sd-wan.md](architecture/prisma-sd-wan.md) | Prisma SD-WAN (ION + Controller) — app-defined fabric, zero-routing, deployment shape, Prisma Access integration |
 
@@ -66,7 +62,7 @@ Vendor documentation is scattered across official docs, community threads, KB ar
 
 ```
 useful-skillet/
-├── architecture/   # senior-level design references (NGFW, Azure, Prisma Access, Prisma SD-WAN)
+├── architecture/   # design references (NGFW, cloud, Prisma Access, Prisma SD-WAN)
 ├── baselines/      # hardening checklists per platform
 ├── upgrades/       # PAN-OS upgrade runbooks
 ├── assessments/    # engagement methodology and templates
